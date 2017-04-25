@@ -35,7 +35,7 @@ while True:
         face = cv2.cvtColor(face, cv2.COLOR_BGR2GRAY)
 
         # Save file in specified directory with unique name
-        file_name_path = './faces/user/' + str(count) + '.jpg'
+        file_name_path = './faces/' + str(count) + '.jpg'
         cv2.imwrite(file_name_path, face)
 
         # Put count on images and display live count
